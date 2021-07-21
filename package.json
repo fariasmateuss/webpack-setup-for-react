@@ -1,5 +1,5 @@
 {
-  "name": "webpack-setup-for-react",
+  "name": "react-app",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -18,6 +18,7 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.14.5",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@types/react-dom": "^17.0.9",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.7",
