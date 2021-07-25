@@ -1,8 +1,10 @@
+
+<img src="./docs/resources/thumbnail.png" width="350" align="right">
+
 # Webpack Setup for React.js
 
 Mininal Webpack and React.js Starter boilerplate.
 
-<img src="./docs/resources/thumbnail.png">
 
 ## Demo
 
