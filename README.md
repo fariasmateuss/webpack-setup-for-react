@@ -5,23 +5,24 @@
 
 Mininal Webpack and React.js Starter boilerplate.
 
-
 ## Demo
 
 [Link to demo](https://fariasmateuss.github.io/webpack-setup-for-react/)
 
-## Installation
+## Usage
+
+Create a new application using `create-react-app` with the `-e | --example` flag pointing to this repository's url, like so:
+
+```bash
+npx create-react-app project-name -e https://github.com/fariasmateuss/webpack-setup-for-react.git
+```
+
+## Run Locally
 
 Clone the project
 
 ```bash
 git clone https://github.com/fariasmateuss/webpack-setup-for-react.git
-```
-
-_or_
-
-```bash
-npx create-react-app project-name -e https://github.com/fariasmateuss/webpack-setup-for-react.git
 ```
 
 Go to the project directory
