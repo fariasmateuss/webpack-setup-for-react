@@ -8,7 +8,7 @@
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
     "predeploy": "cross-env NODE_ENV=production webpack",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "postinstall": "husky install",
     "commit": "cz"
   },
