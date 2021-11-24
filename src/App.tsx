@@ -1,7 +1,6 @@
+import logo from './assets/logo.svg';
 import './styles/global.scss';
 import './styles/App.scss';
-
-import logo from './assets/logo.svg';
 
 export function App() {
   return (
