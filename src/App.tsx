@@ -7,18 +7,13 @@ export function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          To get started, fork it and then edit <span>src/App.tsx</span> and
-          save to reload.
+        <h1 className="App-title">
+          Welcome to <code>React.js</code>
+        </h1>
+
+        <p className="App-description">
+          Get started by editing <code>src/App.tsx</code>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

@@ -20,11 +20,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #444;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -36,30 +31,18 @@
   }
 }
 
-span::before {
-  transform: scaleX(0);
-  transform-origin: bottom right;
+.App-title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
 }
 
-span:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.App-description {
+  line-height: 1.5;
+  font-size: 1.5rem;
 }
 
-span::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 0 0 0 0;
-  background: #7cd4f1;
-  z-index: -1;
-  transition: transform 0.3s ease;
-}
-
-span {
-  position: relative;
+.App-title,
+.App-description {
+  text-align: center;
 }
