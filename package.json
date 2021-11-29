@@ -55,7 +55,7 @@
     "gh-pages": "3.2.3",
     "html-webpack-plugin": "5.5.0",
     "husky": "7.0.4",
-    "lint-staged": "11.2.6",
+    "lint-staged": "12.1.2",
     "node-sass": "6.0.1",
     "prettier": "2.5.0",
     "react-refresh": "0.11.0",
