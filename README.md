@@ -4,21 +4,14 @@
 
 Mininal Webpack and React.js Starter boilerplate.
 
-## What is included in this boilerplate?
+## Motivation 
 
-- Support for both JSX and TSX.
-- ESLint — Using airbnb config
-- Prettier — Code Formatter
-- Husky — For running scripts before committing
-- Commitizen — To define a standard way of committing rules
-- Commitlint — Make sure your commit messages follow the convention
-- Renovate — Keep your dependencies up to date
-- lint-staged — To run ESLint and Prettier against staged Git files
-- PR Workflow — Run Type Check & Linters on all Pull Requests
-- EditorConfig — Maintain consistent coding styles across editors and IDEs
-- React refresh — So you can change and modify your component without refresh or reload the page in real time change!
-- CSS-loader & SASS-loader & style-loader.
-- Webpack-serve — A lean and modern webpack development server.
+- The alternative for CRA is to set up your own boilerplate;
+- We can eliminate all of its disadvantages by setting up dependencies and configs by ourselves (you can add dependencies as per your requirement) and easier to add/modify build configs;
+- Minimal webpack and babel configs required to run a react application;
+- Production-ready build set up, with linters and pre-commit hooks.
+- Support for both JSX and TSX;
+
 
 ## Demo
 
@@ -87,4 +80,4 @@ If you have any feedback, please contact me through my [LinkedIn profile](https:
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/fariasmateuss/webpack-setup-for-react/blob/master/LICENSE)
