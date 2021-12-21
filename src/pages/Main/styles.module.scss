@@ -1,19 +1,19 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
+.logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,18 +31,18 @@
   }
 }
 
-.App-title {
+.title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
 
-.App-description {
+.description {
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
-.App-title,
-.App-description {
+.title,
+.description {
   text-align: center;
 }
