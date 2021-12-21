@@ -4,14 +4,13 @@
 
 Mininal Webpack and React.js Starter boilerplate.
 
-## Motivation 
+## Why?
 
 - The alternative for CRA is to set up your own boilerplate;
 - We can eliminate all of its disadvantages by setting up dependencies and configs by ourselves (you can add dependencies as per your requirement) and easier to add/modify build configs;
 - Minimal webpack and babel configs required to run a react application;
 - Production-ready build set up, with linters and pre-commit hooks.
 - Support for both JSX and TSX;
-
 
 ## Demo
 
@@ -51,7 +50,9 @@ Start the server
 yarn dev
 ```
 
-Open http://localhost:8080 with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
+
+That's it. Changes to components should hot-reload in the browser.
 
 ## Deployment
 
@@ -77,6 +78,10 @@ By default, this boilerplate uses Yarn 1 (Classic), but this choice is yours. If
 ## Feedback
 
 If you have any feedback, please contact me through my [LinkedIn profile](https://linkedin.com/in/fariasmateuss).
+
+## Contributing
+
+All PRs are welcome.
 
 ## License
 
