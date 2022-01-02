@@ -39,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "5.7.0",
     "@typescript-eslint/parser": "5.7.0",
     "babel-loader": "8.2.3",
+    "babel-plugin-module-resolver": "^4.1.0",
     "commitizen": "4.2.4",
     "cross-env": "7.0.3",
     "css-loader": "6.5.1",
