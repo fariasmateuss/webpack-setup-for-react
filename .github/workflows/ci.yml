@@ -7,7 +7,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: Run Type Check & Linters
+    name: Run CI
     runs-on: ubuntu-latest
 
     steps:
@@ -24,11 +24,17 @@ jobs:
       - name: Install dependencies (with cache)
         uses: bahmutov/npm-install@HEAD
 
-      - name: Checking type
+      - name: Check type
         run: yarn type-check
 
-      - name: Check linting
+      - name: Check lint
         run: yarn lint
+
+      - name: Check style
+        run: yarn format
 
       - name: Check commits messages
         uses: wagoid/commitlint-github-action@v4
+
+      - name: Build
+        run: yarn build
