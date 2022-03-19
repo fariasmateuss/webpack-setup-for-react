@@ -59,7 +59,7 @@
     "husky": "7.0.4",
     "lint-staged": "12.3.4",
     "node-sass": "7.0.1",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "process": "0.11.10",
     "react-refresh": "0.11.0",
     "sass-loader": "12.6.0",
