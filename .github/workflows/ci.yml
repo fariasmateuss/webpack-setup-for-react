@@ -1,4 +1,4 @@
-name: Check PR
+name: Run CI
 
 on: [pull_request]
 
@@ -7,7 +7,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: Run CI
+    name: CI
     runs-on: ubuntu-latest
 
     steps:
@@ -41,4 +41,3 @@ jobs:
 
       - name: Cypress tests
         run: yarn cy:run
-
