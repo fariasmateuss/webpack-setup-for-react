@@ -1,6 +1,10 @@
-name: Check PR
+name: CI
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   run-ci:
@@ -41,4 +45,3 @@ jobs:
 
       - name: Cypress tests
         run: yarn cy:run
-
