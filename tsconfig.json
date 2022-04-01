@@ -18,6 +18,7 @@
         "./src/*"
       ]
     },
+    "types": ["cypress"]
   },
-  "include": ["src"]
+  "include": ["**/*.ts"]
 }
