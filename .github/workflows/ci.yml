@@ -1,13 +1,17 @@
-name: Run CI
+name: CI
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   run-ci:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: CI
+    name: Run CI
     runs-on: ubuntu-latest
 
     steps:
