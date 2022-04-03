@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   push:
@@ -7,11 +7,10 @@ on:
   pull_request:
 
 jobs:
-  run-ci:
+  build:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: Run CI
     runs-on: ubuntu-latest
 
     steps:
@@ -40,8 +39,11 @@ jobs:
       - name: Check commits messages
         uses: wagoid/commitlint-github-action@v4
 
+      - name: Integration tests
+        run: yarn cy:run
+
       - name: Build
         run: yarn build
 
-      - name: Cypress tests
-        run: yarn cy:run
+      - name: Realese
+        uses: cycjimmy/semantic-release-action@v3

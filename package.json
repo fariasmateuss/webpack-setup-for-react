@@ -1,9 +1,15 @@
 {
-  "name": "react-app",
+  "name": "wabpack-setup-for-react",
+  "description": "Mininal Webpack and React.js Starter boilerplate for TypeScript projects.",
   "version": "1.0.0",
+  "author": "Mateus V. Farias",
   "main": "index.js",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fariasmateuss/webpack-setup-for-react.git"
+  },
   "scripts": {
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
@@ -39,6 +45,8 @@
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.4",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@types/react-dom": "17.0.14",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.17.0",
@@ -68,6 +76,7 @@
     "process": "0.11.10",
     "react-refresh": "0.11.0",
     "sass-loader": "12.6.0",
+    "semantic-release": "^19.0.2",
     "start-server-and-test": "^1.14.0",
     "style-loader": "3.3.1",
     "ts-node": "10.7.0",
