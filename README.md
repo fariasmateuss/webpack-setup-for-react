@@ -1,6 +1,8 @@
-<img src="./docs/resources/thumbnail.png" width="350" align="right">
+<img src="./docs/resources/thumbnail.png">
 
 # Webpack Setup for React.js
+
+<img src="./docs/resources/tech-stack.png" width="350" align="right">
 
 Mininal Webpack and React.js Starter boilerplate.
 
@@ -18,10 +20,6 @@ Mininal Webpack and React.js Starter boilerplate.
 I use React.js for almost every front-end project I create. Here's a boilerplate repo that I have been reusing for these projects.
 
 Try it out for your next project or share what your structure looks like.
-
-## Demo
-
-<a href="https://fariasmateuss.github.io/webpack-setup-for-react/" rel="Lint to demo"><img src="./docs/resources/demo.png" alt="Link to demo" /></a>
 
 ## Usage
 
@@ -58,6 +56,10 @@ yarn dev
 ```
 
 Step 5: All Done
+
+## Demo
+
+<a href="https://fariasmateuss.github.io/webpack-setup-for-react/" rel="Lint to demo"><img src="./docs/resources/demo.png" alt="Link to demo" /></a>
 
 Once the build completes, your app is live! Open http://localhost:3000 with your browser to see the result.
 
