@@ -18,7 +18,8 @@
         "./src/*"
       ]
     },
-    "types": ["cypress", "node"]
+    "types": ["node", "jest", "@testing-library/jest-dom", "cypress"]
   },
-  "include": ["src", "**/*.ts"]
+  "include": ["src", "**/*.ts", "./jest/setupTests.ts"],
+  "exclude": ["node_modules", "jest", "cypress"]
 }
