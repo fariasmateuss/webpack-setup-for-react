@@ -23,7 +23,9 @@
     "cy:open-only": "cypress open",
     "cy:run-only": "cypress run",
     "cy:open": "start-server-and-test dev 3000 cy:open-only",
-    "cy:run": "start-server-and-test dev 3000 cy:run-only"
+    "cy:run": "start-server-and-test dev 3000 cy:run-only",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -32,6 +34,7 @@
     ]
   },
   "dependencies": {
+    "@testing-library/react": "^13.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-router-dom": "6.3.0"
@@ -47,7 +50,10 @@
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.4",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@types/jest": "^27.4.1",
     "@types/react-dom": "17.0.14",
+    "@types/testing-library__jest-dom": "^5.14.3",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.17.0",
     "babel-loader": "8.2.4",
@@ -70,6 +76,9 @@
     "gh-pages": "3.2.3",
     "html-webpack-plugin": "5.5.0",
     "husky": "7.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "jsdom": "^19.0.0",
     "lint-staged": "12.3.7",
     "node-sass": "7.0.1",
     "prettier": "2.6.1",
@@ -79,6 +88,7 @@
     "semantic-release": "^19.0.2",
     "start-server-and-test": "^1.14.0",
     "style-loader": "3.3.1",
+    "ts-jest": "^27.1.4",
     "ts-node": "10.7.0",
     "typescript": "4.6.3",
     "webpack": "5.71.0",
