@@ -23,7 +23,8 @@
     "cy:open-only": "cypress open",
     "cy:run-only": "cypress run",
     "cy:open": "start-server-and-test dev 3000 cy:open-only",
-    "cy:run": "start-server-and-test dev 3000 cy:run-only"
+    "cy:run": "start-server-and-test dev 3000 cy:run-only",
+    "test": "jest"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -47,6 +48,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.4",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@types/jest": "^27.4.1",
     "@types/react-dom": "17.0.14",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.17.0",
@@ -80,6 +82,7 @@
     "semantic-release": "^19.0.2",
     "start-server-and-test": "^1.14.0",
     "style-loader": "3.3.1",
+    "ts-jest": "^27.1.4",
     "ts-node": "10.7.0",
     "typescript": "4.6.3",
     "webpack": "5.70.0",
