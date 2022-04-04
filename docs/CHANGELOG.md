@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/fariasmateuss/webpack-setup-for-react/compare/v1.0.0...v1.0.1) (2022-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-router-dom to v6.3.0 ([99187e0](https://github.com/fariasmateuss/webpack-setup-for-react/commit/99187e08789f8c2e61833047698d155e463dfa65))
+
 # 1.0.0 (2022-04-04)
 
 
