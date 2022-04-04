@@ -110,7 +110,7 @@ If you have any ideas or feedback for this project, please let me know. Connect 
 
 ## Contributing
 
-If you found this useful, please help us improve it by contributing.
+If you found this useful, please help us improve it by [contributing](/docs/CONTRIBUTING.md).
 
 ## License
 
