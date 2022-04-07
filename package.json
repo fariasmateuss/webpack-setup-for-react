@@ -47,7 +47,7 @@
     "@babel/preset-typescript": "7.16.7",
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
-    "@pmmmwh/react-refresh-webpack-plugin": "0.5.4",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.5",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "@testing-library/jest-dom": "^5.16.3",
