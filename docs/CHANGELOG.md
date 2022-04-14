@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/fariasmateuss/webpack-setup-for-react/compare/v1.0.1...v1.0.2) (2022-04-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @testing-library/react to v13.0.1 ([beba9a5](https://github.com/fariasmateuss/webpack-setup-for-react/commit/beba9a54567c7ceedcbecd5bd522ebd08c57f5f2))
+
 ## [1.0.1](https://github.com/fariasmateuss/webpack-setup-for-react/compare/v1.0.0...v1.0.1) (2022-04-04)
 
 
