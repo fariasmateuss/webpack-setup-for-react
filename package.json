@@ -52,7 +52,7 @@
     "@semantic-release/git": "^10.0.1",
     "@testing-library/jest-dom": "5.16.4",
     "@types/jest": "^27.4.1",
-    "@types/react-dom": "18.0.0",
+    "@types/react-dom": "18.0.1",
     "@types/testing-library__jest-dom": "^5.14.3",
     "@typescript-eslint/eslint-plugin": "5.19.0",
     "@typescript-eslint/parser": "5.19.0",
