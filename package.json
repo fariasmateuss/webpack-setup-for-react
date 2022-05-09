@@ -1,7 +1,7 @@
 {
   "name": "wabpack-setup-for-react",
   "description": "Mininal Webpack and React.js Starter boilerplate for TypeScript projects.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Mateus V. Farias",
   "main": "index.js",
   "private": true,
