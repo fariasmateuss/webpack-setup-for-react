@@ -75,7 +75,7 @@
     "file-loader": "6.2.0",
     "gh-pages": "3.2.3",
     "html-webpack-plugin": "5.5.0",
-    "husky": "7.0.4",
+    "husky": "8.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "28.1.0",
     "jsdom": "^19.0.0",
